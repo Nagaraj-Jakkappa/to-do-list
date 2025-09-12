@@ -61,6 +61,10 @@ Uploading this project gave me confidence to continue building and sharing my wo
 
 ---
 
+## screenshots
+<img width="1889" height="932" alt="image" src="https://github.com/user-attachments/assets/420f3da0-61bc-4e5b-a823-15d8ced85100" />
+
+
 ## 📂 How to Use
 1. Clone this repo:
    ```bash
