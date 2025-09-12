@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header with Logo -->
+        <div class="header">
+            <img src="To Do.jpg" alt="App Logo" class="logo">
+            <h1>DoIt</h1>
+        </div>
+
+        <!-- Input Section -->
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Add new task...">
+            <select id="prioritySelect">
+                <option>High</option>
+                <option selected>Medium</option>
+                <option>Low</option>
+            </select>
+            <input type="date" id="dueDateInput">
+            <select id="recurringSelect">
+                <option>None</option>
+                <option>Daily</option>
+                <option>Weekly</option>
+                <option>Monthly</option>
+            </select>
+            <button id="addBtn">Add Task</button>
+        </div>
+
+        <!-- Filter/Search Section -->
+        <div class="filter-container">
+            <select id="filterPriority">
+                <option>All</option>
+                <option>High</option>
+                <option>Medium</option>
+                <option>Low</option>
+            </select>
+            <select id="filterStatus">
+                <option>All</option>
+                <option>Completed</option>
+                <option>Pending</option>
+            </select>
+            <input type="text" id="searchInput" placeholder="Search tasks...">
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div id="progressBar"></div>
+        </div>
+
+        <!-- Task List -->
+        <ul id="taskList"></ul>
+
+        <!-- Buttons -->
+        <button id="clearBtn"><i class="fas fa-trash-alt"></i> Clear All</button>
+        <button id="darkModeToggle"><i class="fas fa-moon"></i> Dark Mode</button>
+        <button id="exportBtn"><i class="fas fa-file-csv"></i> Export CSV</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
